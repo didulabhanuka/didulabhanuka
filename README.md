@@ -1,6 +1,4 @@
-
 <h4 align="left">Undergraduate at SLIIT</h4>
-
 
 <h4 align="left">Connect with me:</h4>
 <a href="https://www.linkedin.com/in/didulabhanuka/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hashini herath" height="30" width="40" /></a>
