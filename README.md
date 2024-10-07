@@ -88,26 +88,4 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=didulabhanuka&" alt="GitHub Streak" /></p>
 
-<!-- New Additions -->
 
-<h3 align="left">🏆 GitHub Trophies:</h3>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=didulabhanuka&theme=onedark" alt="GitHub Trophies" />
-</p>
-
-<h3 align="left">📊 Contribution Graph:</h3>
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=didulabhanuka&bg_color=1c1c1c&color=f5b700&line=f5b700&point=ffffff&area=true" alt="GitHub Contribution Graph" />
-</p>
-
-<!-- Visitors Count -->
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=didulabhanuka&label=Profile%20Views&color=blue&style=flat-square" alt="Profile Views" />
-</p>
-
-<!-- Adding GIFs for engagement -->
-<p align="left">
-  <img src="https://media.giphy.com/media/1d5GdrKfCjvUDMCj0k/giphy.gif" width="150" />
-  <img src="https://media.giphy.com/media/XBfrWZyAN1bFG/giphy.gif" width="150" />
-  <img src="https://media.giphy.com/media/Yrf7tvEEnlw8l7AaaS/giphy.gif" width="150" />
-</p>
