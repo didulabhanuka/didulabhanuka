@@ -1,129 +1,105 @@
-<!-- 🔥 MODERN GLASS + NEON PORTFOLIO HERO -->
-<p align="center">
+<div align="center">
 
-  <!-- Portfolio Image (BIG + Floating Glow) -->
-  <a href="https://didulabhanuka.github.io/" target="_blank">
-    <img
-      src="https://drive.google.com/file/d/17jDh1Xn2gnaPXx5TXo5gKX5NkVW0E9ri/view?usp=drive_link"
-      alt="Didula Bhanuka Portfolio"
-      width="960"
-      style="
-        border-radius: 32px;
-        margin-top: 10px;
-        filter: drop-shadow(0px 0px 35px #00eaffcc)
-                drop-shadow(0px 0px 65px #8b5cf6cc)
-                drop-shadow(0px 0px 95px #FFD70055);
-        transition: 0.3s ease-in-out;
-      "
-    />
-  </a>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=200&section=header&text=Didula%20Bhanuka&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Associate%20Software%20Engineer&descAlignY=58&descColor=ffffff&descSize=20" width="100%"/>
 
-</p>
+</div>
 
-<br/>
+<div align="center">
 
-<!-- ✨ Typing Header -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=3000&pause=1000&color=00E7FF&center=true&vCenter=true&width=650&lines=Hello%2C+I'm+Lasiru+Minruk!;Software+Engineering+Undergraduate;Full-Stack+Developer;Cloud+%26+DevOps+Enthusiast;Crafting+Modern+Digital+Experiences" />
-</h1>
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-didulabhanuka.github.io-667eea?style=for-the-badge)](https://didulabhanuka.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/didulabhanuka)
+[![Email](https://img.shields.io/badge/Email-Say%20Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=LasMinruk&label=Profile%20Views&color=00E7FF&style=flat" />
-  <a href="https://github.com/LasMinruk?tab=followers">
-    <img src="https://img.shields.io/github/followers/LasMinruk?label=Followers&style=social" />
-  </a>
-</p>
-
-
-
-<!-- 🚀 Working On -->
-## 🚀 What I'm Building  
-> ⚡ *Engineering scalable systems, cloud-native architectures & AI-powered solutions.*
-
-- 🤖 Smart Healthcare System (**AI triage, telehealth, Stripe payments**)  
-- 🧩 Distributed **Spring Boot microservices**  
-- 🚀 **Kubernetes • Docker • CI/CD** automation  
-- 🤝 Open to backend / cloud / DevOps collaborations  
-- 🔭 Exploring **microservice resilience & observability**  
+</div>
 
 ---
 
-<!-- 🛠 Tech Stack -->
-## 🛠 Tech Stack (Modern Overview)
+### 👋 About Me
 
-### 🔧 **Backend**
-`Node.js` • `Express.js` • `React-native` • `Python`
-
-### 🎨 **Frontend**
-`React` • `Vue.js` • `JavaScript` • `Bootstrap`
-
-### 🗄 **Databases**
-`MongoDB` • `MySQL` • `Firebase`
-
-### ⚙ **DevOps & Cloud**
-`Docker` • `Kubernetes` • `GitHub Actions` • `Postman` • `Figma`
+```ts
+const didula = {
+  degree:   "BSc (Hons) Software Engineering @ SLIIT",
+  focus:    ["Full-Stack Web", "Mobile (React Native)", "Cloud & DevOps"],
+  stack:    ["React", "Node.js", "Express.js", "TypeScript"],
+  database: ["PostgreSQL", "MongoDB", "Firebase"],
+  cloud:    ["AWS", "GCP", "Docker"],
+  status:   "Open to Associate Software Engineer roles 🚀",
+};
+```
 
 ---
 
-<!-- 📊 GitHub Analytics -->
-## 📊 GitHub Analytics  
-<p align="center">
+### 🛠️ Tech Stack
 
-  <!-- ⭐ GitHub Statistics Card -->
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=didulabhanuka&theme=tokyonight" />
+<div align="center">
 
-  <!-- ⭐ Repo Languages Card -->
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=didulabhanuka&theme=tokyonight" />
+**Languages & Frameworks**
 
-</p>
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 
-<p align="center">
+**Databases & Cloud**
 
-  <!-- ⭐ Most Commit Languages -->
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=didulabhanuka&theme=tokyonight" />
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-  <!-- ⭐ Productive Time -->
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=didulabhanuka&theme=tokyonight" />
+**Tools**
 
-</p>
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
----
-
-<!-- 🐍 Snake Animation -->
-## 🐍 Contribution Snake  
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
-
-<!-- 🌐 Social Links -->
-## 🌐 Connect With Me  
-<p align="center">
-  <a href="https://linkedin.com/in/didulabhanuka">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:didulabhanuka98@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://didulabhanuka.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-020202?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://drive.google.com/file/d/1FWLpwxPPqtWPsqU9jaBhgKUJZ6CmAHW0/view?usp=drive_link">
-    <img src="https://img.shields.io/badge/Resume-8A2BE2?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />
-  </a>
-</p>
+</div>
 
 ---
 
-<!-- ⚡ Fun Fact -->
-## ⚡ Fun Fact  
-> 🎧 *I debug 3× faster with neon lights and bass-heavy music — elite dev mode activated.*  
+### 📊 GitHub Stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=DidulaBhanuka&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DidulaBhanuka&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=DidulaBhanuka&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DidulaBhanuka&theme=tokyo-night&hide_border=true&bg_color=0D1117" width="100%"/>
+
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-  <i>💻 Innovate • 🚀 Build • 🌱 Grow</i>
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-</p>
+### 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=DidulaBhanuka&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1"/>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=100&section=footer" width="100%"/>
+
+*Let's build something great together — feel free to reach out!*
+
+</div>
