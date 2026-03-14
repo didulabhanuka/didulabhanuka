@@ -101,16 +101,16 @@ const didula = {
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DidulaBhanuka&theme=transparent" width="80%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DidulaBhanuka&theme=tokyonight" width="80%"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DidulaBhanuka&theme=transparent" height="140em"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DidulaBhanuka&theme=transparent" height="140em"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DidulaBhanuka&theme=transparent" height="140em"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DidulaBhanuka&theme=transparent&utcOffset=+5.30" height="140em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DidulaBhanuka&theme=tokyonight" height="120em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DidulaBhanuka&theme=tokyonight" height="120em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DidulaBhanuka&theme=tokyonight" height="120em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DidulaBhanuka&theme=tokyonight&utcOffset=+5.30" height="120em"/>
 
 </div>
 
