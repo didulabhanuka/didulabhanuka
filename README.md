@@ -6,9 +6,16 @@
 
 <div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Full-Stack+Web+Developer+%F0%9F%92%BB;Mobile+App+Developer+%F0%9F%93%B1;Cloud+%26+DevOps+Enthusiast+%E2%98%81%EF%B8%8F;Always+learning%2C+always+building+%F0%9F%9A%80)](https://git.io/typing-svg)
+
+</div>
+
+<div align="center">
+
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-didulabhanuka.github.io-667eea?style=for-the-badge)](https://didulabhanuka.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/didulabhanuka)
 [![Email](https://img.shields.io/badge/Email-Say%20Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
+![Visitors](https://komarev.com/ghpvc/?username=DidulaBhanuka&label=Profile%20Views&color=667eea&style=for-the-badge)
 
 </div>
 
@@ -78,9 +85,37 @@ const didula = {
 
 </div>
 
+---
+
+### 📈 Contribution Graph
+
 <div align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=DidulaBhanuka&theme=tokyo-night&hide_border=true&bg_color=0D1117" width="100%"/>
+
+</div>
+
+---
+
+### 🗂️ Profile Summary
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DidulaBhanuka&theme=tokyonight" width="100%"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DidulaBhanuka&theme=tokyonight"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DidulaBhanuka&theme=tokyonight"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DidulaBhanuka&theme=tokyonight"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DidulaBhanuka&theme=tokyonight&utcOffset=+5.30"/>
 
 </div>
 
@@ -90,7 +125,21 @@ const didula = {
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=DidulaBhanuka&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1"/>
+<img src="https://github-profile-trophy.vercel.app/?username=DidulaBhanuka&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C"/>
+
+</div>
+
+---
+
+### 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DidulaBhanuka/DidulaBhanuka/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DidulaBhanuka/DidulaBhanuka/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/DidulaBhanuka/DidulaBhanuka/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
 
 </div>
 
