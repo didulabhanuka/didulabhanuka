@@ -101,31 +101,16 @@ const didula = {
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DidulaBhanuka&theme=tokyonight" width="100%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DidulaBhanuka&theme=transparent" width="80%"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DidulaBhanuka&theme=tokyonight"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DidulaBhanuka&theme=tokyonight"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DidulaBhanuka&theme=tokyonight"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DidulaBhanuka&theme=tokyonight&utcOffset=+5.30"/>
-
-</div>
-
----
-
-### 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=DidulaBhanuka&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DidulaBhanuka&theme=transparent" height="140em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=DidulaBhanuka&theme=transparent" height="140em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DidulaBhanuka&theme=transparent" height="140em"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=DidulaBhanuka&theme=transparent&utcOffset=+5.30" height="140em"/>
 
 </div>
 
