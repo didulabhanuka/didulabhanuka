@@ -200,6 +200,48 @@ def cube_faces_svg(gx: int, gy: int, height: int, top_color: str) -> str:
     return "\n".join(polys)
 
 
+def bow_tie_svg(gx: int, gy: int, height: int, color: str) -> str:
+    """Render a small isometric bow tie on top of the tallest cell."""
+    step = CELL + GAP
+    x0 = gx * step + CELL / 2  # centre of the cell
+    y0 = gy * step + CELL / 2
+
+    knot = 1.2   # half-width of centre knot
+    wing = 3.5   # how far wings extend outward
+    h_bow = 2.0  # vertical spread of bow wings
+    z_base = height + 4   # sits higher above the top face
+    z_top  = height + 7   # peak of the bow
+
+    # Centre knot — small diamond on top
+    k_tl = project(x0 - knot, y0,        z_top)
+    k_tr = project(x0,        y0 - knot, z_top)
+    k_br = project(x0 + knot, y0,        z_top)
+    k_bl = project(x0,        y0 + knot, z_top)
+    knot_pts = (f"{k_tl[0]:.2f},{k_tl[1]:.2f} {k_tr[0]:.2f},{k_tr[1]:.2f} "
+                f"{k_br[0]:.2f},{k_br[1]:.2f} {k_bl[0]:.2f},{k_bl[1]:.2f}")
+
+    # Left wing — triangle
+    lw_tip  = project(x0 - wing, y0,         z_base)
+    lw_top  = project(x0 - knot, y0 - h_bow, z_top)
+    lw_bot  = project(x0 - knot, y0 + h_bow, z_top)
+    lw_pts  = f"{lw_tip[0]:.2f},{lw_tip[1]:.2f} {lw_top[0]:.2f},{lw_top[1]:.2f} {lw_bot[0]:.2f},{lw_bot[1]:.2f}"
+
+    # Right wing — triangle
+    rw_tip  = project(x0 + wing, y0,         z_base)
+    rw_top  = project(x0 + knot, y0 - h_bow, z_top)
+    rw_bot  = project(x0 + knot, y0 + h_bow, z_top)
+    rw_pts  = f"{rw_tip[0]:.2f},{rw_tip[1]:.2f} {rw_top[0]:.2f},{rw_top[1]:.2f} {rw_bot[0]:.2f},{rw_bot[1]:.2f}"
+
+    wing_color  = "#ff69b4"   # hot pink wings
+    knot_color  = "#c2185b"   # darker pink knot
+
+    return "\n".join([
+        f'<polygon points="{lw_pts}"  fill="{wing_color}" opacity="0.95"/>',
+        f'<polygon points="{rw_pts}"  fill="{wing_color}" opacity="0.95"/>',
+        f'<polygon points="{knot_pts}" fill="{knot_color}"/>',
+    ])
+
+
 def height_from_count(count: int) -> int:
     if count <= 0:
         return 0
@@ -324,9 +366,15 @@ def render_svg(cells: list[Cell], palette_name: str, stats: Stats, weeks: int) -
         f'width="{width:.0f}" height="{height:.0f}">'
     ]
 
+    # Find the cell with the highest commit count for the bow tie
+    peak_cell = max(cells, key=lambda c: c.count, default=None)
+
     for cell in sorted_cells:
         color = palette["empty"] if cell.level == 0 else palette["levels"][cell.level - 1]
         parts.append(cube_faces_svg(cell.week, cell.day, height_from_count(cell.count), color))
+        if peak_cell and cell.week == peak_cell.week and cell.day == peak_cell.day:
+            bow_color = palette["levels"][3]
+            parts.append(bow_tie_svg(cell.week, cell.day, height_from_count(cell.count), bow_color))
 
     parts.append(render_top_right_stats(tr_anchor_x, tr_anchor_y, palette_name, stats))
     parts.append(render_bottom_left_stats(bl_left, bl_bottom, palette_name, stats))
