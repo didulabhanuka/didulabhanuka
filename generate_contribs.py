@@ -201,44 +201,32 @@ def cube_faces_svg(gx: int, gy: int, height: int, top_color: str) -> str:
 
 
 def bow_tie_svg(gx: int, gy: int, height: int, color: str) -> str:
-    """Render a small isometric bow tie on top of the tallest cell."""
+    """Render a pink bow tie as a 2D overlay above the tallest cell."""
     step = CELL + GAP
-    x0 = gx * step + CELL / 2  # centre of the cell
+    x0 = gx * step + CELL / 2
     y0 = gy * step + CELL / 2
 
-    knot = 1.2   # half-width of centre knot
-    wing = 3.5   # how far wings extend outward
-    h_bow = 2.0  # vertical spread of bow wings
-    z_base = height + 4   # sits higher above the top face
-    z_top  = height + 7   # peak of the bow
+    # Project the top-centre of the cell, then offset upward in screen space
+    cx, cy = project(x0, y0, height)
+    cy -= 10  # lift bow tie 10px above the top face in screen space
 
-    # Centre knot — small diamond on top
-    k_tl = project(x0 - knot, y0,        z_top)
-    k_tr = project(x0,        y0 - knot, z_top)
-    k_br = project(x0 + knot, y0,        z_top)
-    k_bl = project(x0,        y0 + knot, z_top)
-    knot_pts = (f"{k_tl[0]:.2f},{k_tl[1]:.2f} {k_tr[0]:.2f},{k_tr[1]:.2f} "
-                f"{k_br[0]:.2f},{k_br[1]:.2f} {k_bl[0]:.2f},{k_bl[1]:.2f}")
+    # Bow tie dimensions in screen pixels
+    w = 7    # half-width of each wing
+    h = 4    # half-height of each wing
+    kw = 2   # knot half-width
+    kh = 2.5 # knot half-height
 
-    # Left wing — triangle
-    lw_tip  = project(x0 - wing, y0,         z_base)
-    lw_top  = project(x0 - knot, y0 - h_bow, z_top)
-    lw_bot  = project(x0 - knot, y0 + h_bow, z_top)
-    lw_pts  = f"{lw_tip[0]:.2f},{lw_tip[1]:.2f} {lw_top[0]:.2f},{lw_top[1]:.2f} {lw_bot[0]:.2f},{lw_bot[1]:.2f}"
-
-    # Right wing — triangle
-    rw_tip  = project(x0 + wing, y0,         z_base)
-    rw_top  = project(x0 + knot, y0 - h_bow, z_top)
-    rw_bot  = project(x0 + knot, y0 + h_bow, z_top)
-    rw_pts  = f"{rw_tip[0]:.2f},{rw_tip[1]:.2f} {rw_top[0]:.2f},{rw_top[1]:.2f} {rw_bot[0]:.2f},{rw_bot[1]:.2f}"
-
-    wing_color  = "#ff69b4"   # hot pink wings
-    knot_color  = "#c2185b"   # darker pink knot
+    # Left wing triangle
+    lw = f"{cx - kw},{cy}  {cx - w},{cy - h}  {cx - w},{cy + h}"
+    # Right wing triangle
+    rw = f"{cx + kw},{cy}  {cx + w},{cy - h}  {cx + w},{cy + h}"
+    # Centre knot diamond
+    kn = f"{cx},{cy - kh}  {cx + kw},{cy}  {cx},{cy + kh}  {cx - kw},{cy}"
 
     return "\n".join([
-        f'<polygon points="{lw_pts}"  fill="{wing_color}" opacity="0.95"/>',
-        f'<polygon points="{rw_pts}"  fill="{wing_color}" opacity="0.95"/>',
-        f'<polygon points="{knot_pts}" fill="{knot_color}"/>',
+        f'<polygon points="{lw}" fill="#ff69b4" opacity="0.95"/>',
+        f'<polygon points="{rw}" fill="#ff69b4" opacity="0.95"/>',
+        f'<polygon points="{kn}" fill="#c2185b"/>',
     ])
 
 
